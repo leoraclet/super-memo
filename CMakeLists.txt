@@ -44,18 +44,10 @@ set(
     ${IMGUI_SRC_DIR}/imgui-SFML.cpp
 )
 
-# Load GLAD and STB src files
-set(
-    LIBS_SRC
-    ${LIB_DIR}/stb/stb_image.cpp
-    ${LIB_DIR}/glad/src/glad.c
-)
-
 # Include directories
 include_directories(
     ${LIB_DIR}
     ${INCLUDE_DIR}
-    ${LIB_DIR}/glad/include
 )
 
 # Executable

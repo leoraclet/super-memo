@@ -6,11 +6,18 @@
 ![license](https://img.shields.io/github/license/leoraclet/super-memo)
 ![language](https://img.shields.io/github/languages/top/leoraclet/super-memo)
 ![lastcommit](https://img.shields.io/github/last-commit/leoraclet/super-memo)
+<br>
+![Release](https://img.shields.io/badge/Release-v1.0-blueviolet)
+![Language](https://img.shields.io/badge/Language-C++-1d50de)
+![Libraries](https://img.shields.io/badge/Framework-SFML-fa8925)
+![Size](https://img.shields.io/badge/Size-2.7Mo-f12222)
+![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 
 </div>
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
+- [🌟 Showcase](#-showcase)
 - [📖 About](#-about)
 - [✨ Features](#-features)
 - [📦 Structure](#-structure)
@@ -21,8 +28,17 @@
 - [🚀 Releases](#-releases)
 - [📜 License](#-license)
 
+## 🌟 Showcase
+
+![app](./assets/super-memo.png)
 
 ## 📖 About
+
+> [!WARNING]
+>
+> ⚠️ This project was made for school with a deadline and I chose to leave it as it was at the time of submission.
+>
+> I only updated the development environment to make it more consistent and reliable.
 
 This is a shcool project in which we were tasked to build a simple flashcard application like
 [**Anki**](https://apps.ankiweb.net/), with a UI for the user to interact with. It could have been a
@@ -83,6 +99,7 @@ The UI should allow the user to:
     [**dev-templates**](https://github.com/the-nix-way/dev-templates))
   - `.envrc` - Used by **direnv** to load **Flakes**
   - `flake.lock` - Used by **Flakes** to version packages
+  - `CMakeLists.txt` -  CMake configuration to build the project
 
 ## 📚 Libraries
 
@@ -136,7 +153,7 @@ Then, you can run the produced executable in `build` with
 
 ### Windows (WSL)
 
-> [!WARNING]
+> [!CAUTION]
 >
 > I have **NOT** tested the building process on Windows, so you're basically on your own for this.
 
